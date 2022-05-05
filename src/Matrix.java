@@ -1,8 +1,9 @@
 public class Matrix<Integer extends Number> {
+    public Matrix<Integer>arr[][];
 
-    public Matrix(Integer[][] arr) {
-
+    public Matrix(Integer[][]arr) {
     }
+
 
     public void plusMatrix(int arr[][], int arr1[][]) {
         int[][] arr2 = new int[arr.length][arr1[0].length];
