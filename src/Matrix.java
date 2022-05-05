@@ -1,5 +1,5 @@
 public class Matrix<Integer extends Number> {
-    public Matrix<Integer>arr[][];
+    public Integer arr[][];
 
     public Matrix(Integer[][]arr) {
     }
